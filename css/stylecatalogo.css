@@ -3,12 +3,14 @@ body{
 	
 }
 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: grey;
+    color: rgb(71, 71, 66);
 }
 
 .OOO{
-    width: 77%;
+    background-color: rgb(12, 12, 12);
+    width: 86%;
 	margin: 0px auto;
 	border: 1px solid rgb(214, 211, 211);
 }
@@ -20,10 +22,11 @@ h1{
 }
  
 .pin {
+    background-color: black;
     display: inline-block;
     border: 2px solid #bdb8b8;
     padding: 15px;
-    margin: 5px;
+    margin: 20px;
 }
 .pin h2{
     text-align: center;
