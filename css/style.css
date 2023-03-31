@@ -4,11 +4,74 @@
     box-sizing: border-box;
 }
 
+section.pagina-contacto{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+article.contacto{
+    background-color: #111;
+    width: 40%;
+    padding: 1rem;
+    margin: 4rem 0;
+}
+article.contacto h2{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+article.contacto form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+article.contacto div.form-input{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 1rem 1rem;
+    font-size: 24px;
+}
+.input{
+    margin: 0.5rem 0;
+    height: 2rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.3rem 1rem;
+    font-size: 24px;
+}
+textarea.input{
+    width: 100%;
+    height: 100%;
+}
+input[type="submit"]{
+    height: 2.5rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 2rem 0;
+    font-size: 24px;
+}
+input[type="submit"]:hover{
+    background-color: #cccccc;
+}
+
+article.mapa{
+    background-color: #111;
+    width: 45%;
+    margin: 4rem 0;
+    text-align: center;
+    height: auto;
+}
+article.mapa h2{
+    margin: 1rem 1rem;
+}
+
+
 footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     background: #111;
     height: auto;
     width: 100%;
