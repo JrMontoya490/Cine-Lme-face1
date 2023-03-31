@@ -2,12 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/stylecatalogo.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/slider.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Catalogo de peliculas.</title>
 </head>
@@ -39,6 +37,14 @@
             </ul>   
         </nav>
     </header>
+    <div class="slider">
+        <ul>
+            <li><img src="img/main-carousel-07.png" alt=""></li>
+            <li><img src="img/main-carousel-04.png" alt=""></li>
+            <li><img src="img/main-carousel-03.png" alt=""></li>
+            <li><img src="img/main-carousel-02.png" alt=""></li>  
+        </ul>
+    </div>
 <script>
     hamburger = document.querySelector(".hamburger");
     nav = document.querySelector("nav");
@@ -46,7 +52,7 @@
         nav.classList.toggle("active");
     }
 </script>
-    <h1>Cartelera Semanal.</h1><br><br>
+    <br> <br><h1>Cartelera Semanal.</h1><br>
     <div class="OOO">
         <br>
             <div class="pin">
@@ -151,7 +157,18 @@
             </div>
     </div>
     <footer>
-       
+        <div class="footer-content">
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 LME.</p>
+        </div>
     </footer>
 </body>
 </html>
