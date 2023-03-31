@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/stylecatalogo.css">
-    <link rel="stylesheet" href="css/estilo.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Catalogo de peliculas.</title>
 </head>
 <body>
     <header>
-            <div class="logo"><a href="index.html"><img src="img/cinemark-logo.png" alt="logo" width="250px" height="25px"></a></div>
+        <div class="logo"><a href="index.html"><img src="img/cinemark-logo.png" alt="logo" width="250px" height="25px"></a></div>
         <div class="hamburger">
             <div class="line"></div>
             <div class="line"></div>
@@ -19,7 +22,7 @@
         <nav class="nav-bar">
             <ul>
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="" class="active">Home</a>
                 </li>
                 <li>
                     <a href="">Feature</a>
@@ -28,11 +31,21 @@
                     <a href="">Pricing</a>
                 </li>
                 <li>
+                    <a href="Acerca_de.html">About</a>
+                </li>
+                <li>
                     <a href="">Contact</a>
                 </li>
             </ul>   
         </nav>
     </header>
+<script>
+    hamburger = document.querySelector(".hamburger");
+    nav = document.querySelector("nav");
+    hamburger.onclick = function() {
+        nav.classList.toggle("active");
+    }
+</script>
     <h1>Cartelera Semanal.</h1><br><br>
     <div class="OOO">
         <br>
