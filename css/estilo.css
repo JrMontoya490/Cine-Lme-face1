@@ -26,6 +26,7 @@ header {
 .hamburger {
     display: none;
 }
+
 .nav-bar ul {
     display: flex;
 }
