@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html"><img src="img/cinemark-logo-index.png" alt="logo" width="250px" height="25px"></a></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">Feature</a>
+                </li>
+                <li>
+                    <a href="">Pricing</a>
+                </li>
+                <li>
+                    <a href="Acerca_de.html">About</a>
+                </li>
+                <li>
+                    <a href="contacto.html" class="active">Contact</a>
+                    
+                </li>
+            </ul>   
+        </nav>
+    </header>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function() {
+            nav.classList.toggle("active");
+        }
+    </script>
+    <section class="pagina-contacto">
+        <article class="contacto">
+            <h2>Formulario de contacto</h2>
+            <form action="">
+                <div class="form-input">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" class="input" required>
+                </div>
+                <div class="form-input">
+                    <label for="email">Correo electrónico: </label>
+                    <input type="email" id="email" class="input" required>
+                </div>
+                <div class="form-input">
+                    <label for="telefono">Teléfono: </label>
+                    <input type="tel" id="telefono" class="input" pattern="[6-7][0-9]{7}" title="Ingrese un número de teléfono válido" required>
+                </div>
+                <div class="form-input">
+                    <label for="comentario">Comentario o sugerencia: </label>
+                    <textarea id="comentario" cols="40" rows="5" class="input" required></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </article>
+        <article class="mapa">
+            <h2>¡VISÍTANOS!</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1938.3454599897248!2d-89.25530714186314!3d13.676548705062121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f632e2ddd33f07d%3A0xde2fa6e9d74cad31!2zQ2luZW1hcmsg4oCiIExhIEdyYW4gVsOtYQ!5e0!3m2!1ses-419!2ssv!4v1680298279415!5m2!1ses-419!2ssv" width="820" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+        
+    </section>
+    <footer>
+        <div class="footer-content">
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 LME.</p>
+        </div>
+    </footer>
+</body>
+</html>
