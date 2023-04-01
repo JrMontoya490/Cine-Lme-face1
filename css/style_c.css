@@ -1,0 +1,38 @@
+
+
+h1{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+h3{
+    font-size: 17px;
+}
+section {
+    display: flex;
+    
+}
+section article{
+    text-align: center;
+    color: white;
+    height: 240px;
+    width: 310px;
+    overflow: hidden;
+    border: 2px dashed #860d0d;
+    box-sizing: border-box;
+    padding: 1%;
+}
+#dado {
+    font-size: 50px;
+}
+#earbuds {
+    font-size: 50px;
+}
+#control {
+    font-size: 50px;
+}
+#dpad {
+    font-size: 50px;
+}
+
