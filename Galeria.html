@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/styleG.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="Principal.html"><img src="img/cinemark-logo-index.png" alt="logo" width="250px" height="25px"></a></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="Principal.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="Galeria.html" class="active">Galeria</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contáctenos</a>
+                </li>
+                <li>
+                    <a href="Acerca_de.html">Conócenos</a>
+                </li>
+                <li>
+                    <a href="Creadores.html">Creadores</a>
+                </li>
+            </ul>   
+        </nav>
+    </header>
+    <div class="OOO">
+        <br>
+            <div class="pin">
+                <h3>Sucursales Cinemark</h3>
+                <img class="mg" src="img/Sucursal.jpg">
+
+                <img class="mg" src="img/fotonoticia_20221104194322_420.jpg">
+
+                <img class="mg" src="img/descarga.JPG">
+
+                <h3>Salas Cinemark</h3>
+
+                <img class="mg" src="img/VBP_6233.JPG">
+
+                <img class="mg" src="img/cinemark-sala.jpg">
+
+                <img class="mg" src="img/cine.jpg">
+                
+            </div>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function() {
+            nav.classList.toggle("active");
+        }
+    </script>
+
+<footer>
+    <div class="footer-content">
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/cinemarksv"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/cinemarksv"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMzJJSlZgNGB0YPDiSM7MS81NLMoGAEx2Bp4&q=cinemark&rlz=1C1CHBF_esSV1020SV1020&oq=CINEMA&aqs=chrome.3.69i60j69i57j69i59j46i39i199i465j69i59j69i61l2j69i60.6828j0j7&sourceid=chrome&ie=UTF-8"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCPcHHZkJyHbRzf1Eiw2TDqg"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/cinemarkca"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2023 LME.</p>
+    </div>
+</footer>
+
+</body>
+</html>
