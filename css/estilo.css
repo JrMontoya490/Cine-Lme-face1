@@ -6,9 +6,7 @@
     list-style: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-body {
-    background: black;
-}
+
 header {
     width: 100%;
     height: 80px;
@@ -26,7 +24,6 @@ header {
 .hamburger {
     display: none;
 }
-
 .nav-bar ul {
     display: flex;
 }
