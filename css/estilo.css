@@ -495,9 +495,15 @@ article.mapa h2{
     border-radius: 25px;
 }
 
-.O1OOh3{
+.O1OO h3{
     text-align: center;
     color: blanchedalmond;
+    font-size: 30px;
+    margin: 3%;
+}
+.sucuw h3{
+    text-align: center;
+    color: rgb(253, 234, 205);
     font-size: 30px;
     margin: 3%;
 }
